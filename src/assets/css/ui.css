@@ -1,0 +1,40 @@
+/******************************************************************************
+	UI
+******************************************************************************/
+.va-input{
+	width: 100%;
+}
+
+
+#app .va-data-table .va-data-table__table .va-data-table__table-thead{
+	background: var(--va-primary);
+	color: var(--va-text-inverted);
+}
+/* #app .va-data-table__table .va-data-table__table-thead .va-data-table__table-th{
+	border: 1px solid var(--va-background-border);
+} */
+#app .va-data-table .va-data-table__table .va-data-table__table-td{
+	border: 1px solid var(--va-background-border);
+	vertical-align: top;
+	white-space: normal;
+}
+#app  .va-input-wrapper__label{
+	padding-left: 1px;
+}
+
+#app .va-card__content{
+	padding: 5px 10px;
+	font-size: 16px;
+	word-break: break-all;
+	word-break: break-word;
+}
+#app .va-card__title{
+	padding: 5px 10px 0;
+	color: var(--va-primary);
+}
+#app .va-data-table .va-data-table__table .va-data-table__table-th .va-data-table__table-th-sorting-icon{
+	opacity: var(--va-data-table-hover-th-opacity);
+}
+#app .va-data-table .va-data-table__table .va-data-table__table-th .va-data-table__table-th-sorting-icon.active{
+	opacity: 1;
+}

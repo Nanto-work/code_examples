@@ -1,0 +1,22 @@
+/******************************************************************************
+	Transitions
+******************************************************************************/
+.fade-enter-active,
+.fade-leave-active{
+	will-change: opacity;
+	transition: opacity var(--anim-time) var(--anim-func);
+}
+.fade-enter-from,
+.fade-leave-to{
+	opacity: 0;
+}
+
+.notifications-enter-active,
+.notifications-leave-active{
+	will-change: transform;
+	transition: transform 200ms linear;
+}
+.notifications-enter-from,
+.notifications-leave-to{
+	transform: translateY(calc(100% + 10px));
+}
